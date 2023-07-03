@@ -17,8 +17,9 @@
   text-decoration: none;
   list-style: none;
 }
+
 body {
-  background-image: url("./img/fondoback.jpeg");
+  /* background-image: url("./img/fondoback.jpeg"); */
   background-repeat: no-repeat;
   background-position: center center;
   height: 900px;
@@ -36,6 +37,8 @@ body {
   box-shadow: -3px 2px 8px;
   padding: 5px;
   margin-top: 5px;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -48,7 +51,6 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  
 }
 
 .botones {
@@ -64,18 +66,21 @@ body {
   transition: 0.2s;
 }
 
-.botones:first-child {
-  font-weight: 600;
-  color: var(--titulo);
-}
-
 .botones:hover{
   color: var(--colortext);
 }
 
 /* main */
 
-/* section1 */
+/*  ======== Hero section ========= */
+main {
+  background-image: url("/img/fondoback.jpeg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-
+#hero{
+  max-width: 1200px;
+}
 
