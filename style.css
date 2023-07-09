@@ -115,19 +115,25 @@ main {
 .hero-info p{
   font-size: 18px;
   font-weight: 600;
-  text-shadow: -6px 6px 5px var(--shadow);
-  width: 85%;
-  margin: 25px;
+  /* text-shadow: -6px 6px 5px var(--shadow); */
+  width: 80%;
+  margin: 25px 0px;
+  background-color: var(--background);
+  opacity: 0.7;
+  border-radius: 10px;
+  box-shadow: -8px 8px 10px var(--shadow);
+  padding: 10px 15px;
 }
 
 .hero-info a{
   background-color: var(--colortext);
-  color: var(--shadow);
+  color: var(--background);
+  font-weight: 800;
   width: fit-content;
   padding: 8px 8px;
   margin: 20px;
   border-radius: 8px;
-  box-shadow: -3px 4px 3px var(--shadow);
+  box-shadow: -3px 4px 8px var(--shadow);
 }
 
 /* ======== About section ========*/
@@ -156,23 +162,46 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: -6px 6px 5px var(--shadow);
+  /* text-shadow: -6px 6px 5px var(--shadow); */
+  background-color: var(--background);
+  opacity: 0.7;
+  border-radius: 10px;
+  box-shadow: -3px 3px 9px var(--shadow);
+  padding: 10px 15px;
 }
 
 /* ==========Integrantes Section============ */
 
 #info{
-  padding: 70px 0;
+  padding: 100px 0;
   max-width: 1200px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   gap: 80px;
 }
 
+#info h2{
+  font-size: 65px;
+  font-weight: 800;
+  color: var(--colortext);
+  text-shadow: -6px 6px 5px var(--shadow);
+}
+
+.info-conteiner{
+  display: flex;
+}
+
+.info-card-conteiner{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 .info-card{
-  background-color: crimson;
+  background-color: var(--background);
+  opacity: 0.7;
   width: 290px;
   height: 290px;
   padding: 40px 30px;
@@ -181,6 +210,12 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   text-align: center;
 }
+
+.retrato {
+  display: flex;
+  max-width: 100px;
+}
+
