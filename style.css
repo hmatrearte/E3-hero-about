@@ -18,13 +18,15 @@
   text-decoration: none;
   list-style: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
 }
+
 
 body {
   background-image: url("./img/fondoback.jpeg");
   background-repeat: no-repeat;
+  height: 300vh;
   background-position: center center;
-  height: 110vmax;
   background-size: cover;
   backdrop-filter: blur(5px) ;
 }
@@ -141,7 +143,7 @@ main {
 #about{
   max-width: 1200px;
   height: 65px;
-  padding: 100px 0;
+  padding: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,6 +158,7 @@ main {
   width: 100%;
   justify-content: center;
   align-items: center;
+  margin: 30px;
 }
 .bio p{
   max-width: 800px;
@@ -216,6 +219,58 @@ main {
 
 .retrato {
   display: flex;
-  max-width: 100px;
+  max-width: 150px;
 }
 
+/* =========== Contact Section ============ */
+
+#contact{
+  padding: 100px 0;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  
+}
+
+.info-contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background);
+  opacity: 0.7;
+  gap: 10px;
+  font-size: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* ======== footer =========*/
+
+#footer{
+  display: flex;
+  background-color: var(--background);
+  padding: 100px 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.text-footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--text);
+  font-size: 20px;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

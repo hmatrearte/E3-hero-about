@@ -75,20 +75,51 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
         </div>
       </div>      
-      </section>
+      </section id="contact">
       <!-- contacto -->
       <section>
-        <div class="contacto">          
-            <h1>Dejanos tu mensaje</h1>
+        <h2>Dejanos tu mensaje</h2>
+
+        <div class="info-contact">          
+          <form>
+            <div class="info-contact">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="John Bonachon"
+                name="name"
+              />
+            </div>
+
+            <div class="info-contact">
+              <label for="email">Email: </label>
+              <input
+                type="email"
+                id="email"
+                placeholder="tuki@nucba.com.ar"
+                name="email"
+                required
+              />
+            </div>
+            <div class="info-contact">
+              <label for="mensaje">Mensaje: </label>
+              <textarea name="mensaje" id="mensaje" cols="30" rows="5"> </textarea>
+            </div>
+        </div >
+        <div class="redes">
 
         </div>
-          <div class="-card">
-            
-          </div>
       </section>
     </main>
-    <footer>
-      
-    </footer>
+    <!-- FOOTER  -->
+      <footer id="footer">
+        <div class="container">
+          <div>
+            <img class="retrato" src="./img/foto1.jpg" alt="dibujito">
+          </div>
+          <p class="text-footer">Landing creada por Tuki Matias Rearte</p>
+        </div>
+      </footer>
   </body>
 </html>
