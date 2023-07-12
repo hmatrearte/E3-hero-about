@@ -231,8 +231,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 100px;
-  
+  gap: 10px;
 }
 
 .info-contact{
