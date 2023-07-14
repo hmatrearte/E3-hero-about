@@ -25,7 +25,7 @@
 body {
   background-image: url("./img/fondoback.jpeg");
   background-repeat: no-repeat;
-  height: 2200PX;
+  height: 2300PX;
   background-position: center center;
   background-size: cover;
   backdrop-filter: blur(5px) ;
@@ -125,7 +125,6 @@ main {
   border-radius: 10px;
   box-shadow: -8px 8px 10px var(--shadow);
   padding: 10px 15px;
-  opacity: ;
   transition: 0.5s;
 }
 
@@ -250,11 +249,19 @@ main {
   gap: 10px;
 }
 
+#contact h2{
+  font-size: 65px;
+  font-weight: 800;
+  color: var(--colortext);
+  text-shadow: -6px 6px 5px var(--shadow);
+}
+
+
 .info-contact{
   display: flex;
   align-items: center;
   background-color: var(--background);
-  /* opacity: 0.7; */
+  justify-content: space-between;  
   gap: 10px;
   font-size: 20px;
   margin: 20px 0;
